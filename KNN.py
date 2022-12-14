@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import os
 from sklearn.neighbors import KNeighborsClassifier
 
-train_identity = pd.read_csv('mycsvfile3_new.csv')
+train_identity = pd.read_csv('nstrain.csv')
 train_identity.head()
 train_identity.drop(axis='columns',labels='had_id',inplace=True)
 # First we split the data into X and y
