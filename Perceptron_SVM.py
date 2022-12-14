@@ -1,6 +1,6 @@
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-train_identity = pd.read_csv('mycsvfile3_new.csv')
+train_identity = pd.read_csv('nstrain.csv')
 train_identity.drop(axis='columns',labels='had_id',inplace=True)
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import f1_score
