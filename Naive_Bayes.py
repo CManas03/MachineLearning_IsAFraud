@@ -3,7 +3,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
-train_identity = pd.read_csv('mycsvfile3_new.csv')
+train_identity = pd.read_csv('nstrain.csv')
 
 train_identity.drop(axis='columns',labels='had_id',inplace=True)
 #Separate the target variable and rest of the variables.
