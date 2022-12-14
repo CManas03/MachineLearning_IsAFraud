@@ -4,8 +4,8 @@ from sklearn.linear_model import LogisticRegression
 # from sklearn.model_selection import cross_val_score
 # from sklearn.metrics import classification_report, confusion_matrix
 
-test_identity = pd.read_csv('mycsvfile2_new.csv')
-train_identity = pd.read_csv('mycsvfile3_new.csv')
+test_identity = pd.read_csv('nstest.csv')
+train_identity = pd.read_csv('nstrain.csv')
 
 # Logistic Regression
 # Logistic Regression is a generalized Linear Regression in the sense that we don’t output the weighted sum of inputs directly, but we pass it through a function that can map any real value between 0 and 1.
